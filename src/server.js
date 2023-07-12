@@ -28,8 +28,8 @@ mongoose
 app.use("/api/contacts", contactRoutes);
 // app.use("/api/categories", categoryRoutes);
 // app.use("/api/contents", contentRoutes);
-const port = process.env.PORT ||3001
+const port = process.env.PORT || 3001;
 //Start serv
-app.listen(5555, () => {
-  console.log("listening on port 5555 ! \u{1F430}");
+app.listen(port, () => {
+  console.log("listening on port:" + port + "! \u{1F430}");
 });
